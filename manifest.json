@@ -1,7 +1,11 @@
 {
 	"@platforms": ["android", "iPhone", "iPad"],
 	"id" : "",/*应用的标识，创建应用时自动生成，勿手动修改*/
+<<<<<<< HEAD
 	"name" : "DiDi",/*应用名称，程序桌面图标名称*/
+=======
+	"name" : "DropProject",/*应用名称，程序桌面图标名称*/
+>>>>>>> be652a3172e73eff7650bf95b0f29f4fddbc3d01
 	"version": {
 		"name": "1.0.0",/*应用版本名称*/
 		"code": "83"
