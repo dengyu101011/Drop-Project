@@ -3507,7 +3507,7 @@ select:focus
 }
 .mui-segmented-control.mui-scroll-wrapper .mui-scroll
 {
-    width: auto;
+    /* width: auto; */
     height: 40px;
 
     white-space: nowrap;

@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
-		<title></title>
+		<title>滴滴工程</title>
 		<script src="js/mui.min.js"></script>
 		<link href="css/mui.min.css" rel="stylesheet" />
 		<link rel="stylesheet" href="http://at.alicdn.com/t/font_1579149_5skvpneg9ui.css">
@@ -81,26 +81,32 @@
 			<button type="button" class="mui-btn mui-btn-primary mui-btn-outlined">提交申请</button>
 		</form>
 		<nav class="mui-bar mui-bar-tab ">
-			<a class="mui-tab-item mui-active">
+			<a class="mui-tab-item mui-active" href="index.html">
 				<div class="iconfont icon-shouye"></div>
 				<div class="mui-tab-label" style="font-size: 10px">首页</div>
 			</a>
-			<a class="mui-tab-item">
+			<a class="mui-tab-item" href="Venture project.html">
 				<div class="iconfont icon-chaxun"></div>
 				<div class="mui-tab-label" style="font-size: 10px">创业项目</div>
 			</a>
-			<a class="mui-tab-item">
+			<a class="mui-tab-item" href="kregistration.html">
 				<div class="iconfont icon-liuchengtu"></div>
 				<div class="mui-tab-label" style="font-size: 10px">报名流程</div>
 			</a>
-			<a class="mui-tab-item" href="平台风采.html">
+			<a class="mui-tab-item" href="Zpingtaifengcia.html">
 				<div class="iconfont icon-wendang"></div>
 				<div class="mui-tab-label" style="font-size: 10px">平台风采</div>
 			</a>
-			<a class="mui-tab-item" href="">
+			<a class="mui-tab-item" href="information.html">
 				<div class="iconfont icon-wode"></div>
 				<div class="mui-tab-label" style="font-size: 10px">我的滴滴</div>
 			</a>
 		</nav>
+		<script src="js/mui.min.js"></script>
+		<script type="text/javascript">
+			mui("body").on("tap","a",function(){
+				document.location.href = this.href;
+			})
+		</script>
 	</body>
 </html>
